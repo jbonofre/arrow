@@ -17,12 +17,12 @@
 
 #pragma once
 
-#include <arrow/flight/sql/odbc/odbcabstraction/include/odbcabstraction/odbc_impl/odbc_handle.h>
+#include "arrow/flight/sql/odbc/odbcabstraction/include/odbcabstraction/odbc_impl/odbc_handle.h"
 
-#include <arrow/flight/sql/odbc/odbcabstraction/include/odbcabstraction/platform.h>
 #include <sql.h>
 #include <memory>
 #include <string>
+#include "arrow/flight/sql/odbc/odbcabstraction/include/odbcabstraction/platform.h"
 
 namespace driver {
 namespace odbcabstraction {
